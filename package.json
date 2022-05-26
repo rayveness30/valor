@@ -1,6 +1,6 @@
 {
-    "name": "Valor-Bot",
-    "version": "2.22.8.7",
+    "name": "Ray-Bot",
+    "version": "30.5",
     "description": "Baileys WebSocket API",
     "main": "index.js",
     "type": "module",
