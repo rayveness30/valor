@@ -61,8 +61,8 @@ ${usedPrefix}${command} money 999 @${_package.name}
 `.trim()
     const type = (args[0] || '').toLowerCase()
     if (!item.includes(type)) return conn.sendButton(m.chat, '*–––––『 TRANSFER 』–––––*', lol, './media/transfer.jpg', [
-[`ᴛғ ᴩᴏᴛɪᴏɴ`, `${usedPrefix}${command} potion 1 @+919971107409`],
-[`ᴛғ ᴛʀᴀsʜ`, `${usedPrefix}${command} trash 1 @+919971107409`],
+[`ᴛғ ᴩᴏᴛɪᴏɴ`, `${usedPrefix}${command} potion 1 @+6282129893899`],
+[`ᴛғ ᴛʀᴀsʜ`, `${usedPrefix}${command} trash 1 @+6282129893899`],
 ], m, {asLocation: true})
     const count = Math.min(Number.MAX_SAFE_INTEGER, Math.max(1, (isNumber(args[1]) ? parseInt(args[1]) : 1))) * 1
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : args[2] ? (args[2].replace(/[@ .+-]/g, '') + '@s.whatsapp.net') : ''
